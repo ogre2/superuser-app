@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -6,23 +7,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.4] - 2022-05-25
+## [0.0.5] - 2022-05-25
+
 ### Added
+
+- Configured `<ejs>` as app view engine in `<server.js>` file.
+- Configured app layouts directory.
+- Linked front-end dependencies to app (bootstrap, animate.css, jquery, etc.).
+- Launched GitHub pages website here: [https://ogre2.github.io/superuser-app/](https://ogre2.github.io/superuser-app/).  
+
+### Changed
+
+- Modified res.send to res.render in `<server.js>` for root route.  
+
+### Removed
+
+- `</docs>` subdirectory.  
+
+## [0.0.4] - 2022-05-25
+
+### Added
+
 - Installed `<colors>`.
 - Created config file for app configuration code.
 - Created server file with intial home router for testing.
 - Launched server.
 
 ## [0.0.3] - 2022-05-25
+
 ### Added
+
 - Installed `<dotenv>`.
 
 ### Changes
+
 - Modified script in `<package.json.>` for nodemon.
 - Moved `<dotenv>` line under [0.0.2] to [0.0.3] release.
 
 ## [0.0.2] - 2022-05-25
+
 ### Added
+
 - Installed `<Express>`.
 - Installed `<EJS>` and `<express-ejs-layouts>`.
 - Installed `<Mongoose>`.
@@ -37,16 +62,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed `<nodemon>`.
 
 ### Changed
+
 - Modified v0.0.1 date.
 
 ## [0.0.1] - 2022-05-25
+
 ### Added
+
 - Added project license.
 - Added project `<README>` file.
 - Initialized .gitignore file for Node.
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.0.5]: https://github.com/ogre2/superuser-app/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/ogre2/superuser-app/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/ogre2/superuser-app/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/ogre2/superuser-app/compare/v0.0.1...v0.0.2
