@@ -6,7 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.1] - 2014-05-31
+## [0.0.2] - 2022-05-25
+### Added
+- Installed `<Express>`.
+- Installed `<EJS>` and `<express-ejs-layouts>`.
+- Installed `<Mongoose>`.
+- Installed `<Bootstrap>`.
+- Installed `<cors>`.
+- Installed `<helmet>`.
+- Installed `<jQuery>`.
+- Installed `<@popperjs>`.
+- Installed `<feather-icons>`.
+- Installed `<aos>`.
+- Installed `<animate.css>`.
+- Installed `<nodemon>`.
+
+### Changed
+- Modified v0.0.1 date.
+
+## [0.0.1] - 2022-05-25
 ### Added
 - Added project license.
 - Added project `<README>` file.
@@ -14,4 +32,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.0.2]: https://github.com/ogre2/superuser-app/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/ogre2/superuser-app/releases/tag/v0.0.1
