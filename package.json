@@ -1,0 +1,37 @@
+{
+  "name": "superuser-app",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/ogre2/superuser-app)\r ![GitHub code size](https://img.shields.io/github/languages/code-size/ogre2/superuser-app?color=orange)\r ![GitHub contributors](https://img.shields.io/static/v1?label=contributors&message=1&color=red)\r ![Node version](https://img.shields.io/static/v1?label=node&message=v16.15.0&color=success)\r ![npm version](https://img.shields.io/static/v1?label=npm&message=v8.8.0&color=success)\r ![License](https://img.shields.io/static/v1?label=license&message=Apache%20License%202.0&color=blue)\r ![GitHub stars](https://img.shields.io/github/stars/ogre2/superuser-app?style=social)\r ![GitHub forks](https://img.shields.io/github/forks/ogre2/superuser-app?style=social)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogre2/superuser-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogre2/superuser-app/issues"
+  },
+  "homepage": "https://github.com/ogre2/superuser-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "feather-icons": "^4.29.0",
+    "helmet": "^5.1.0",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.3.4"
+  }
+}
