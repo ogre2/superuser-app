@@ -7,18 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2022-05-25
+
+### Added
+
+- `<client/views>` directory for all application views.  
+- Created `<index.ejs>` file for the app index view.
+- Configured the `<layout.ejs>` file for the main app layout.
+- Linked all frontend dependencies to the layout file.
+
+### Changed
+
+- Modified res.send to res.render in `<server.js>` for root route.
+
 ## [0.0.5] - 2022-05-25
 
 ### Added
 
 - Configured `<ejs>` as app view engine in `<server.js>` file.
-- Configured app layouts directory.
-- Linked front-end dependencies to app (bootstrap, animate.css, jquery, etc.).
-- Launched GitHub pages website here: [https://ogre2.github.io/superuser-app/](https://ogre2.github.io/superuser-app/).  
-
-### Changed
-
-- Modified res.send to res.render in `<server.js>` for root route.  
+- Enabled `<express.urlencoded()>`.
+- Enabled `<express.json()>`.
+- Enabled case sensitive routing.
+- Enabled cors and helmet.
+- Launched GitHub pages website here: [https://ogre2.github.io/superuser-app/](https://ogre2.github.io/superuser-app/). 
 
 ### Removed
 
@@ -75,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.1.0]: https://github.com/ogre2/superuser-app/compare/v0.0.5...v0.1.0
 [0.0.5]: https://github.com/ogre2/superuser-app/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/ogre2/superuser-app/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/ogre2/superuser-app/compare/v0.0.2...v0.0.3
