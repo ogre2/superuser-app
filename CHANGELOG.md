@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added project license.
 - Added project `<README>` file.
 - Initialized .gitignore file for Node.
-- Added `<CHANGLOG>`.md file.
+- Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
 [0.0.1]: https://github.com/ogre2/superuser-app/releases/tag/v0.0.1
