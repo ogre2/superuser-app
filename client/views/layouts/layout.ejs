@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic page needs -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="SuperUser is an employee management tool built on Node/Express, EJS, and Bootstrap."  />
+        <meta name="keywords" content="superuser, employee, employee management, tool, API" />
+
+        <!-- Fonts -->
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/animate/animate.min.css" />
+
+        <!-- Title & Favicon -->
+        <title>SuperUser &mdash; <%= title %></title>
+        <link rel="shortcut icon" href="" type="image/x-icon" /> <!-- Web -->
+        <link rel="apple-touch-icon" href="" type="image/x-icon" /> <!-- iOS -->
+        <link rel="icon" href="" type="image/x-icon" /> <!-- Android -->
+        <!-- HTML5Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNRING: Resond doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <![endif]-->
+    </head>
+    <body id="page-top" data-spy="scroll">
+        <!-- App -->
+        <div class="app">
+            <!-- App Wrapper -->
+            <div class="app-wrapper">
+                <%- body %>
+            </div>
+            <!-- /.app-wrapper -->
+        </div>
+        <!-- /.app -->
+
+        <!-- jQuery -->
+        <script src="/jquery/jquery.min.js"></script>
+        <!-- Popper.js -->
+        <script src="/popper/popper.min.js"></script>
+        <!-- AOS -->
+        <script src="/aos/aos.js"></script>
+        <!-- Feather Icons -->
+        <script src="/feathers/feather.min.js"></script>
+    </body>
+</html>
