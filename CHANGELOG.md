@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2022-05-25
+### Added
+- Installed `<dotenv>`.
+
+### Changes
+- Modified script in `<package.json.>` for nodemon.
+- Moved `<dotenv>` line under [0.0.2] to [0.0.3] release.
+
 ## [0.0.2] - 2022-05-25
 ### Added
 - Installed `<Express>`.
@@ -19,7 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed `<feather-icons>`.
 - Installed `<aos>`.
 - Installed `<animate.css>`.
-- Installed `<dotenv>`.
 - Installed `<nodemon>`.
 
 ### Changed
@@ -33,5 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.0.3]: https://github.com/ogre2/superuser-app/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/ogre2/superuser-app/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/ogre2/superuser-app/releases/tag/v0.0.1
