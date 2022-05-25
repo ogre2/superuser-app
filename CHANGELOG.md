@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.4] - 2022-05-25
+### Added
+- Installed `<colors>`.
+- Created config file for app configuration code.
+- Created server file with intial home router for testing.
+- Launched server.
+
 ## [0.0.3] - 2022-05-25
 ### Added
 - Installed `<dotenv>`.
@@ -40,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.0.4]: https://github.com/ogre2/superuser-app/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/ogre2/superuser-app/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/ogre2/superuser-app/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/ogre2/superuser-app/releases/tag/v0.0.1
