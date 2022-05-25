@@ -15,12 +15,12 @@ The tool is built on Node/Express, EJS, and Bootstrap, and can be viewed here: [
 
 Before you begin, make sure you have met the following prerequisites:
 
-- You have installed `<Node>` version 14.15.4 and above.
-  - You can download the latest LTS version here: [https://nodejs.org/en/](https://nodejs.org/en/).
-- You have installed `<npm>` version 8.8.0 and above.
-  - You can download the latest version here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-- You have installed the latest version of Git.
-  - You can download Git here: [https://git-scm.com/downloads](https://git-scm.com/downloads).
+- You have installed `<Node>` version 14.15.4 and above.  
+  The latest LTS version can be downloaded here: [https://nodejs.org/en/](https://nodejs.org/en/).
+- You have installed `<npm>` version 8.8.0 and above.  
+  The latest version can be downloaded here: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- You have installed the latest version of Git.  
+  Git can be downloaded here: [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
 ## Contributing to <project_name>
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
