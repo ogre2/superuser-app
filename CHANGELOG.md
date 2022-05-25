@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Installed `<feather-icons>`.
 - Installed `<aos>`.
 - Installed `<animate.css>`.
+- Installed `<dotenv>`.
 - Installed `<nodemon>`.
 
 ### Changed
