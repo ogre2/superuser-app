@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased
 
+## [0.1.2] - 2022-05-31
+
+### Added
+
+- Created `<src/db>` subdirectory to house database files.
+- Created the connection file to connect to MongoDB server.
+- Connected app to MongoDB server.
+
+### Changed
+
+- Added db connection file to server file.
+
 ## [0.1.1] - 2022-05-31
 
 ### Added
@@ -99,6 +111,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `<CHANGLOG>` file.
 
 [Unreleased]: https://github.com/ogre2/superuser-app/compare/v0.0.1...HEAD
+[0.1.2]: https://github.com/ogre2/superuser-app/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/ogre2/superuser-app/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ogre2/superuser-app/compare/v0.0.5...v0.1.0
 [0.0.5]: https://github.com/ogre2/superuser-app/compare/v0.0.4...v0.0.5
