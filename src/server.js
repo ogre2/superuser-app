@@ -8,6 +8,8 @@ const ejsLayouts = require('express-ejs-layouts')
 const app = express()
 const server = http.createServer(app)
 
+const indexRouter = require('./routes/index')
+
 config.colors.enable()
 
 app.set('view engine', 'ejs')
@@ -30,17 +32,7 @@ app.use('/aos', express.static(path.resolve(__dirname, '../node_modules/aos/dist
 app.use(express.static(path.resolve(__dirname, '../node_modules/bootstrap/dist/')))
 app.use(express.static(path.resolve(__dirname, '../client/public')))
 
-app.get('/', (req, res) => {
-    // TODO GET root
-    try {
-        res.status(200).render('index', {
-            title: 'Home'
-        })
-    }
-    catch(error) {
-        console.error(error.message.bold)
-    }
-})
+app.use('/', indexRouter)
 
 server.listen(config.port, () => {
     console.log(`[nodemon] server is running on port:${config.port}`.green)
