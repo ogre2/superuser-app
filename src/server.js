@@ -7,7 +7,7 @@ const helmet = require('helmet')
 const ejsLayouts = require('express-ejs-layouts')
 const app = express()
 const server = http.createServer(app)
-
+const dbConnect = require('./db/connect')
 const indexRouter = require('./routes/index')
 
 config.colors.enable()
@@ -35,5 +35,5 @@ app.use(express.static(path.resolve(__dirname, '../client/public')))
 app.use('/', indexRouter)
 
 server.listen(config.port, () => {
-    console.log(`[nodemon] server is running on port:${config.port}`.green)
+    console.log(`[nodemon] server is running on port:${config.port}`.brightCyan)
 })
